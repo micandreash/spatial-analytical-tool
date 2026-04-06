@@ -1,7 +1,7 @@
 # Spatial Analytical Tool for MATSim Evaluation
 
-**Author:** Michael Andreas
-**Master's Thesis:** An Agent-Based Approach to Urban Policy Assessment: Processing Disaggregated MATSim Outputs for Transport Policy Evaluation
+**Author:** Michael Andreas\
+**Master's Thesis:** An Agent-Based Approach to Urban Policy Assessment: Processing Disaggregated MATSim Outputs for Transport Policy Evaluation\
 **Institution:** Technical University of Munich (TUM)
 
 ## Overview
