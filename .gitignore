@@ -1,0 +1,17 @@
+# Python Virtual Environment
+venv/
+.venv/
+
+# PyCharm Settings
+.idea/
+
+# Python Cache
+__pycache__/
+
+# Big Data
+*.xml
+*.csv
+*.gz
+
+# Author's notes
+authors_notes/
