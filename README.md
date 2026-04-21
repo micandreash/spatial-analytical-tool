@@ -12,3 +12,6 @@ This tool aims to bridge highly disaggregated MATSim outputs with macro-level in
 * Accidents (Road-based)
 * Emissions (Road-based)
 * Noise (Road-based)
+
+## Requirements
+* Windows users must install **gdal and rasterio wheel** locally
