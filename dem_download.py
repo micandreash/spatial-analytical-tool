@@ -8,10 +8,10 @@ from tqdm import tqdm
 # 1. SETUP PATH & FOLDER
 # ==========================================
 # Path to file 09.meta4
-meta4_file = r"D:\Michael_Thesis\data\09.meta4"
+meta4_file = r"D:\Michael_Thesis\data\LoD2.meta4"
 
 # Folder to save .tif files
-download_dir = r"D:\Michael_Thesis\data\dem"
+download_dir = r"D:\Michael_Thesis\data\bavaria\buildings LoD2"
 
 os.makedirs(download_dir, exist_ok=True)
 
@@ -38,7 +38,7 @@ for file_node in root.findall('metalink:file', namespace):
             'url': url_node.text
         })
 
-print(f"{len(download_list):,} .tif files found need to be downloaded!")
+print(f"{len(download_list):,} files found and ready to be downloaded!")
 
 
 # ==========================================
@@ -75,7 +75,7 @@ with ThreadPoolExecutor(max_workers=10) as executor:
     # Display progress bar
     futures = {executor.submit(download_tile, item): item for item in download_list}
 
-    for future in tqdm(as_completed(futures), total=len(download_list), desc="Downloading TIFs"):
+    for future in tqdm(as_completed(futures), total=len(download_list), desc="Downloading files"):
         result = future.result()
         if result is not True:
             failed_downloads.append(result)

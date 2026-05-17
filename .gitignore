@@ -7,11 +7,19 @@ venv/
 
 # Python Cache
 __pycache__/
+*.py[cod]
+*$py.class
 
 # Big Data
 *.xml
 *.csv
 *.gz
 
-# Author's notes
-authors_notes/
+# Java / Maven Build Output
+target/
+
+# Python Offline Installers
+*.whl
+
+# Supervisor Files
+RunCar.java

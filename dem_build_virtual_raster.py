@@ -15,7 +15,6 @@ def build_vrt_from_tifs(tif_folder, output_vrt):
     print(f"{len(tif_list):,} .tif files found. Building virtual raster...")
 
     # Execute virtual raster construction
-    # resampleAlg='nearest' -> best standard for elevation data
     vrt_options = gdal.BuildVRTOptions(resampleAlg='nearest')
     gdal.BuildVRT(output_vrt, tif_list, options=vrt_options)
 

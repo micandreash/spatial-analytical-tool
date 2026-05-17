@@ -5,7 +5,7 @@
 **Institution:** Technical University of Munich (TUM)
 
 ## Overview
-This tool aims to bridge highly disaggregated MATSim outputs with macro-level insights. It utilizes the **Autofreie Altstadt München** policy as a primary case study for transport policy evaluation.
+This tool aims to bridge highly disaggregated MATSim outputs with macro-level insights. It utilizes the **Altstadt für alle** policy as a primary case study for transport policy evaluation.
 
 ## Key Indicators
 * Accessibility
